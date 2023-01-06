@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#caroselWebcam{
+    display: flex;
+    padding-top: 20px;
+}
+.video-circle {
+    border-radius: 100%;
+    object-fit: cover;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+padding: 0;
+/* display: flex; */
+/* align-items: left; */
+/* justify-content: left; */
+}
+.webcamButton {
+margin-left: 17vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+#expressionButton {
+margin-bottom: 2vh; 
+margin-bottom: 2vh;
+margin-bottom: 2vh; 
+font-family: Raleway;
+font-weight: 0;
+font-size: 20px;
+color: #fff;
+background-color:  #0b0335;
+padding: 10px 30px;
+border: solid #ff00b3 2px;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+cursor: pointer;
+}
+#qoute-response{
+    align-items: center;
+
+}
+
+.item img{
+    border-radius: 10%;
+    min-width: 480px;
+    max-width: 480px;
+    max-height: 480px;
+    min-height: 480px;
+}
+#gifPlaceholder{
+    border-radius: 10%;
+
+}
+.carousel-control{
+    border: 100px solid transparent;
+}
+#qoutecard{
+    margin-left: 50px;
+
+
+}
+#qouteDisplayIndex{
+    font-family: Raleway;
+    color: #fff;
+    padding: 5px;
+}
+#authorIndex {
+    font-family: 'Sono', sans-serif;    font-size: 20px;
+    color: #fff;
+}
+#emotionIndex{
+    font-family: 'Sono', sans-serif;    font-size: 20px;
+    color: #fff;
+}
+
+#GIFQOUTEVIEWALL{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+#buttonNav{
+    margin-bottom: 2vh; 
+  margin-bottom: 2vh;
+    margin-bottom: 2vh; 
+    
+    font-family: Raleway;
+    font-weight: 0;
+    font-size: 20px;
+    color: #fff;
+    background-color:  #0b0335;
+    padding: 10px 30px;
+    border: solid #ff00b3 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    cursor: pointer;}
+#buttonNavView{
+    padding-top: 5vh; 
+  padding-top: 5vh;
+    padding-top: 5vh; 
+    font-family: Raleway;
+    font-weight: 0;
+    font-size: 20px;
+    color: #fff;
+    background-color:  #0b0335;
+    padding: 10px 30px;
+    border: solid #ff00b3 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+
+    cursor: pointer;
+}
+#GIFQoute {
+    width: 50%; 
+  width: 50%;
+    width: 50%; 
+    min-width: 937px;
+    min-height: 650px;
+} 
+#vanta-canvas{
+    position:absolute;
+    width:100%;
+    height: 100%;
+}
+
+
+
+
+#carouselRES 
+{
+    display: flex;
+    justify-content: center;
+}
+#form{
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;    font-size: 20px;
+margin-left: 13%;
+
+
+}
+#form  label{
+    font-family: 'Sono', sans-serif;    font-size: 20px;
+    color: #fff;
+    
+}
+form input{
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;    font-size: 20px;
+    color: #0b0335;
+
+    font-size: 17px;
+}
+
+#expressionInput option{
+    color: rgb(18, 18, 18);
+    
+}

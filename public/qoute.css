@@ -1,0 +1,51 @@
+#vanta-canvass {
+    background: rgb(238,174,202);
+    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+    height: 100%;
+    width: 100%;
+}
+
+#allQoutes {
+
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Raleway;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    justify-content: space-between;
+}
+#author{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.qoute-card {
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 14px;
+    border: solid rgb(4, 11, 106) 4px;
+
+} 
+#expressionsButton {
+    position: center;
+    margin-top: 4vh;
+    font-family: Raleway;
+    font-weight: 0;
+    font-size: 20px;
+    color: #fff;
+    background-color:  #9a3a7d;
+    padding: 10px 30px;
+    border: solid #ee79cb 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 30px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    }
