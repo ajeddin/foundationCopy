@@ -1,7 +1,7 @@
 const qouteSection = document.querySelector('#allQoutes') 
 
 const getAllQoutes =  () =>{
-     axios.get('http://52.203.217.154//getAllQoutes')
+     axios.get('http://52.203.217.154/getAllQoutes')
     .then(res =>{
 
         res.data.forEach(qoute =>{
