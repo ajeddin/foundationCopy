@@ -9,7 +9,7 @@ const {
 seed,addQoute,getQoute,getAllQoutes,deleteQoute,getGIF
 } = require('./controller.js')
 app.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname,'../public'))
+    res.sendFile(path.join(__dirname,'../public'&& '../face-api.min.js'))
 })
 app.use(express.json())
 app.use(cors())
