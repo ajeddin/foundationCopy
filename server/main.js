@@ -27,4 +27,4 @@ console.log('connected');
 
 
 
-app.listen(PORT, () => console.log(`up on ${PORT}`))
+app.listen(process.env.PORT, () => console.log(`up on ${process.env.PORT}`))
