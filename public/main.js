@@ -1,7 +1,7 @@
 const qouteSection = document.querySelector('#allQoutes') 
 
 const getAllQoutes =  () =>{
-     axios.get('http://52.203.217.154/getAllQoutes')
+     axios.get('https://psychonline.herokuapp.com/getAllQoutes')
     .then(res =>{
 
         res.data.forEach(qoute =>{
@@ -35,7 +35,7 @@ qouteCard.classList.add('qoute-card')
 
 }
 const deleteQoute = (id) => {
-    axios.delete(`http://52.203.217.154/deleteQoute/${id}`).then(()=> {
+    axios.delete(`https://psychonline.herokuapp.com/deleteQoute/${id}`).then(()=> {
         const qouteCard = document.getElementById(`qoute-${id}`)
     
         qouteCard.remove()

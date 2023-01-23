@@ -89,7 +89,7 @@ function handleSubmit(e) {
         emotionSelect: emotionSelect.value, 
         author: authorInput.value
     }
-    axios.post('http://52.203.217.154/addQoute', body)
+    axios.post('https://psychonline.herokuapp.com/addQoute', body)
     .then(()=>alert ('Added to Qoutes'))
     .catch(err => console.log(err))
 }
@@ -98,7 +98,7 @@ function getQoute(emotions){
         emotion:emotions
     }
     qouteRes.innerHTML = ''
-    axios.post(`http://52.203.217.154/getQoute`,body)
+    axios.post(`https://psychonline.herokuapp.com/getQoute`,body)
     .then((res) => {
         let qouteCard = `
         <div class="qoutecard">
@@ -115,7 +115,7 @@ function getQoute(emotions){
 function getGIF(emotion){
     placer.remove()
     carouselRes.innerHTML = ''
-    axios.post('http://52.203.217.154/getGIF',{emotion})
+    axios.post('https://psychonline.herokuapp.com/getGIF',{emotion})
     .then(res => {
         let {url: gifOne} = res.data.data[0].images.original
         let {title: gifOneAlt} = res.data.data[0]
