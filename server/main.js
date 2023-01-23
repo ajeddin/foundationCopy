@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 const cors = require('cors')
-const {SERVER_PORT} = process.env
+const {SERVER_PORT, PORT} = process.env
 app.use(express.static('public'))
 
 const {
@@ -27,4 +27,4 @@ console.log('connected');
 
 
 
-app.listen(SERVER_PORT, () => console.log(`up on ${SERVER_PORT}`))
+app.listen(SERVER_PORT||PORT, () => console.log(`up on ${SERVER_PORT}`))
